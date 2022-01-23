@@ -1,0 +1,140 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF=8">
+        <title>table tag</title>
+   <style>
+       table,th,td{
+           border: 2px solid red;
+           border-collapse: collapse;
+           text-align: center;
+           padding:10px;
+       }
+       #custom-table 
+           thead{
+           background-color: purple;
+           color: white;
+
+       }
+    
+   </style>
+   
+   
+   
+    </head>
+    <body>
+        <table width="50%">
+            <h4>Simple table</h4>
+            <thead>
+                <tr>
+                    <th>SNo</th>
+                    <th>Name</th>
+                    <th>country</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>rose</td>
+                    <td>UK</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Maya</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Jasmine</td>
+                    <td>India</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <h2>table with col span</h2>
+        <table width="50%">
+            <thead>
+                <tr>
+                    <th>SNo</th>
+                    <th colspan="2">Name & Address</th>
+                 </tr>
+                 </thead>
+                 <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>rose</td>
+                    <td>UK</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Maya</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Jasmine</td>
+                    <td>India</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4>Table with row span</h4>
+        <table width="50%">
+            
+            <thead>
+                <tr>
+                    <th>SNo</th>
+                    <th>Name</th>
+                    <th>country</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td rowspan="2">1</td>
+                    <td>rose</td>
+                    <td>UK</td>
+                </tr>
+                <tr>
+
+                    <td>Maya</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Jasmine</td>
+                    <td>India</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table width="50%"  id="custom-table">
+            <h4>custom table </h4>
+            <thead>
+                <tr>
+                    <th>SNo</th>
+                    <th>Name</th>
+                    <th>country</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>rose</td>
+                    <td>UK</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Maya</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Jasmine</td>
+                    <td>India</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </body>
+</html>
