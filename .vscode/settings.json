@@ -1,0 +1,5 @@
+{
+    "git.showPushSuccessNotification": true,
+    "editor.unicodeHighlight.includeComments": true,
+    "editor.unicodeHighlight.nonBasicASCII": true
+}
