@@ -1,0 +1,44 @@
+[
+    {
+        
+        "name": "John Doe dev",
+        "email": "johndev001.doe@example.com",
+        "password": "johndoe",
+        "role": "customer"
+    },
+    {
+        
+        "name": "Jane Doe o1",
+        "email": "jane01.doe@example.com",
+        "password": "janedoe",
+        "role": "admin"
+    },
+    {
+        
+        "name": "Minho",
+        "email": "minho01.doe@example.com",
+        "password": "minmin",
+        "role": "customer"
+    },
+    {
+        
+        "name": "lee jo yun",
+        "email": "leejoyun@example.com",
+        "password": "leelee",
+        "role": "customer"
+    },
+    {
+        
+        "name": "ho jung ki",
+        "email": "hojungki@example.com",
+        "password": "hohoki",
+        "role": "customer"
+    },
+    {
+        
+        "name": "yun jin",
+        "email": "yunjin@example.com",
+        "password": "yunyun",
+        "role": "admin"
+    }
+]
